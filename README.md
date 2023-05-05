@@ -33,3 +33,9 @@ https://pepegsit.itch.io/pepegsitintoadventurement
 
 Contains code snippets from latest project where a role-based authorization module was introduced.
 See individual folder for information about the snippets.
+
+# Flutter Proj - Personal project
+* Frontend - Flutter
+* Backend - Google Cloud / Firebase
+
+Worked on a small project with Flutter to get to know the language better. Unfinished project.
