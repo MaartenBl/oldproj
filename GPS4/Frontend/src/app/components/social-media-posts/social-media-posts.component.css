@@ -1,0 +1,21 @@
+#twitter-tags, #last-messages {
+    width: 100%;
+    color: black;
+    padding: 25px;
+    margin: auto;
+}
+
+#twitter-tags label, #last-messages label {
+    color: white;
+}
+
+#twitter-list {
+    overflow-y: scroll;
+    height: 40vh;
+}
+
+#twitter-list a {
+    background-color: rgba(40, 57, 134, 0.582);
+    color: white;
+    margin-bottom: 5px;
+}

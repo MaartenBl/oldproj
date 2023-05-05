@@ -1,0 +1,15 @@
+.list-group-item {
+    color: black;
+}
+
+#incident-list {
+    max-height: 70vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#incident-list li {
+    background-color: rgba(40, 57, 134, 0.582);
+    color: white;
+    margin-bottom: 5px;
+}

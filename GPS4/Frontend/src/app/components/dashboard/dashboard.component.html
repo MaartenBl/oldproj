@@ -1,0 +1,65 @@
+<section class="container">
+  <div class="my-5 dashboard">
+    <h1>Dashboard</h1>
+
+    <div class="main">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card dashboard-card">
+            <div class="card-body">
+
+              <h5 class="card-title">
+                <i class="fas fa-assistive-listening-systems dashboard-icons"></i>
+                <br> Active incidents
+              </h5>
+
+              <p class="card-text">{{ GetActiveIncidents() }}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="card dashboard-card">
+            <div class="card-body">
+
+              <h5 class="card-title">
+                <i class="fas fa-plus-circle dashboard-icons"></i>
+                <br> New incidents
+              </h5>
+
+              <p class="card-text">{{ GetNewIncidents() }}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="card dashboard-card">
+            <div class="card-body">
+
+              <h5 class="card-title">
+                <i class="fab fa-twitter dashboard-icons"></i>
+                <br> Twitter tags last hour
+              </h5>
+
+              <p class="card-text">{{ GetTwitterTags() }}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="card dashboard-card">
+            <div class="card-body">
+
+              <h5 class="card-title">
+                <i class="fas fa-user-check dashboard-icons"></i>
+                <br> Available people
+              </h5>
+
+              <p class="card-text">{{ GetAvailablePeople() }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,15 @@
+.dashboard {
+    text-align: center;
+}
+
+.dashboard-icons {
+    font-size: 200%;
+    margin-bottom: 2vh;
+}
+
+.dashboard-card {
+    background-color: whitesmoke;
+    margin-bottom: 0.5vh;
+
+    color: black;
+}

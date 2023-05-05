@@ -1,0 +1,41 @@
+<section class="container">
+    <div class="my-5 dashboard">
+        <div class="container">
+            <h2 style="text-align: center;">Incident information</h2><br>
+            <div class="row">
+                <div class="col">
+                    <ul class="fa-ul">
+                        <div *ngIf="p2kData.title">
+                            <li><span class="fa-li"><i class="fas fa-tags"></i></span>Title: {{p2kData.title}}</li>
+                        </div>
+                        <div *ngIf="p2kData.link">
+                            <li><span class="fa-li"><i class="fas fa-link"></i></span>Link: {{p2kData.link}}</li>
+                        </div>
+                        <div *ngIf="p2kData.date">
+                            <li><span class="fa-li"><i class="fas fa-clock"></i></span>Date: {{p2kData.date}}</li>
+                        </div>
+                        <div *ngIf="p2kData.description">
+                            <li><span class="fa-li"><i class="fas fa-tags"></i></span>Description: {{p2kData.description}}</li>
+                        </div>
+                        <div *ngIf="p2kData.author">
+                            <li><span class="fa-li"><i class="fas fa-at"></i></span>Author: {{p2kData.author}}</li>
+                        </div>
+                        <div *ngIf="p2kData.lat">
+                            <li><span class="fa-li"><i class="fas fa-map-marked-alt"></i></span>Latitude: {{p2kData.lat}}</li>
+                        </div>
+                        <div *ngIf="p2kData.lon">
+                             <li><span class="fa-li"><i class="fas fa-map-marked-alt"></i></span>Longitude: {{p2kData.lon}}</li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="col">
+                    <div *ngIf="p2kData">
+                        <app-maps></app-maps>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <app-weather-measurement-information></app-weather-measurement-information>
+        <app-social-media-posts></app-social-media-posts>
+    </div>
+</section>

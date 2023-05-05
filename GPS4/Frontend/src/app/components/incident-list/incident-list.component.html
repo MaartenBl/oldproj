@@ -1,0 +1,14 @@
+<section class="container">
+    <div class="my-5 dashboard">
+        <h1>Incident lijst</h1>
+
+        <div id="incident-list">
+            <ul class="list-group">
+                <ng-container *ngFor="let p2kItem of p2kData">
+                    <li *ngIf="p2kItem.lat" class="list-group-item">
+                        <a (click)="onGoToSpeficIncidentPage(p2kItem)"> {{p2kItem.title}}</a></li>
+                </ng-container>
+            </ul>
+        </div>
+    </div>
+</section>

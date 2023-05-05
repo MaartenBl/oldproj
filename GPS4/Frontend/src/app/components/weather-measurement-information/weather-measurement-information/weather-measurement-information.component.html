@@ -1,0 +1,126 @@
+<div *ngIf="url">
+    <div class="container">
+        <h2 style="text-align: center;">Weather information</h2><br>
+        <div class="row">
+            <div class="col">
+                <iframe class="controls" width="580" height="780" [src]="url" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="col">
+                <ul class="fa-ul">
+                    <div *ngIf="p2kData.lat">
+                        <li><span class="fa-li"><i class="fas fa-map-marked-alt"></i></span>Latitude: {{p2kData.lat}}
+                        </li>
+                    </div>
+                    <div *ngIf="p2kData.lon">
+                        <li><span class="fa-li"><i class="fas fa-map-marked-alt"></i></span>Longitude: {{p2kData.lon}}
+                        </li>
+                    </div>
+                    <div *ngIf="environmentData.weather.timestamp">
+                        <li><span class="fa-li"><i class="fas fa-clock"></i></span>Time: {{environmentData.weather.timestamp}}
+                        </li>
+                    </div>
+                    <div *ngIf="environmentData.weather.weatherDescriptionDutch">
+                        <li><span class="fa-li"><i class="fas fa-clock"></i></span>Weather description: {{environmentData.weather.weatherDescriptionDutch}}
+                        </li>
+                    </div>
+                    <div *ngIf="environmentData.weather.weatherDescriptionEnglish">
+                        <li><span class="fa-li"><i class="fas fa-clock"></i></span>Weather description: {{environmentData.weather.weatherDescriptionEnglish}}
+                        </li>
+                    </div>
+                    <div *ngIf="environmentData.weather.windDirection">
+                        <li><span class="fa-li"><i class="fas fa-wind"></i></span>Wind Direction: {{environmentData.weather.windDirection}}
+                        </li>
+                    </div>
+                    <div *ngIf="environmentData.weather.temperature">
+                        <li><span class="fa-li"><i class="fas fa-thermometer-half"></i></span>Temperature: {{environmentData.weather.temperature}}
+                        </li>
+                    </div>
+                    <div *ngIf="environmentData.weather.groundTemperature">
+                        <li><span class="fa-li"><i class="fas fa-thermometer-half"></i></span>Ground temperature: {{environmentData.weather.groundTemperature}}
+                        </li>
+                    </div>
+                    <div *ngIf="environmentData.weather.feelTemperature">
+                        <li><span class="fa-li"><i class="fas fa-thermometer-half"></i></span>Feel temperature: {{environmentData.weather.feelTemperature}}
+                        </li>
+                    </div>
+                    <div *ngIf="environmentData.weather.windGusts">
+                        <li><span class="fa-li"><i class="fas fa-wind"></i></span>Wind gusts: {{environmentData.weather.windGusts}}
+                        </li>
+                    </div>
+                    <div *ngIf="environmentData.weather.windSpeed">
+                        <li><span class="fa-li"><i class="fas fa-wind"></i></span>Wind speed: {{environmentData.weather.windSpeed}}
+                        </li>
+                    </div>
+                    <div *ngIf="environmentData.weather.windSpeedBft">
+                        <li><span class="fa-li"><i class="fas fa-wind"></i></span>Wind speed bft: {{environmentData.weather.windSpeedBft}}
+                        </li>
+                    </div>
+                    <div *ngIf="environmentData.weather.humidity">
+                        <li><span class="fa-li"><i class="fas fa-tint"></i></span>Humidity: {{environmentData.weather.humidity}}
+                        </li>
+                    </div>
+                    <div *ngIf="environmentData.weather.precipitation">
+                        <li><span class="fa-li"><i class="fas fa-cloud-rain"></i></span>Precipitation: {{environmentData.weather.precipitation}}
+                        </li>
+                    </div>
+                    <div *ngIf="environmentData.weather.sunPower">
+                        <li><span class="fa-li"><i class="fas fa-thermometer-half"></i></span>Sun power: {{environmentData.weather.sunPower}}
+                        </li>
+                    </div>
+                    <div *ngIf="environmentData.weather.rainFallLast24Hour">
+                        <li><span class="fa-li"><i class="fas fa-cloud-rain"></i></span>Rain fall last 24 hour: {{environmentData.weather.rainFallLast24Hour}}
+                        </li>
+                    </div>
+                    <div *ngIf="environmentData.weather.rainFallLastHour">
+                        <li><span class="fa-li"><i class="fas fa-cloud-rain"></i></span>Rain fall last hour: {{environmentData.weather.rainFallLastHour}}
+                        </li>
+                    </div>
+                    <div *ngIf="environmentData.weather.windDirectionDegrees">
+                        <li><span class="fa-li"><i class="fas fa-wind"></i></span>Wind direction degrees: {{environmentData.weather.windDirectionDegrees}}
+                        </li>
+                    </div>
+                    <div *ngIf="environmentData.weather.airPressure">
+                        <li><span class="fa-li"><i class="fas fa-wind"></i></span>Air pressure: {{environmentData.weather.airPressure}}
+                        </li>
+                    </div>
+                    <div *ngIf="environmentData.weather.visibility">
+                        <li><span class="fa-li"><i class="fas fa-eye-slash"></i></span>Visibility: {{environmentData.weather.visibility}}
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2 style="text-align: center;">Measurement information</h2><br>
+        <div class="row">
+            <div class="col">
+                <h4>Description of the tags:</h4>
+                <ul>
+                    <li>Value: The value of measurement in micrograms per cubic metre (μg/m3)}</li>
+                    <li>Formula: Chemical notation of the measured component</li>
+                    <li>Timestamp: ISO8601 notation of the timestamp the measurement was made}</li>
+                </ul><br>
+                <h4>Description of formula values:</h4>
+                <ul>
+                    <li>NO: Nitrogen dioxide</li>
+                    <li>PM: Particulate emissions </li>
+                    <li>03: Ozone</li>
+                </ul>
+            </div>
+
+            <div class="col">
+                Location: {{environmentData.environment.location}}<br>
+                Longitude: {{environmentData.environment.longitude}}<br>
+                Latitude: {{environmentData.environment.latitude}} <br><br>
+                <div *ngFor="let item of environmentData.environment.measurement">
+                    <ul>
+                        <li>Value: {{item.value}}</li>
+                        <li>Formula: {{item.formula}}</li>
+                        <li>Timestamp: {{item.timestamp}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><br>

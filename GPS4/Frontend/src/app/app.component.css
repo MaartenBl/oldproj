@@ -1,0 +1,32 @@
+.menu-content{
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+}
+
+.ng-sidebar-container {
+    overflow-y: hidden;
+}
+
+#menu-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 125%;
+    padding: 5px;
+}
+
+#menu-links a:hover {
+    background-color: rgb(75, 75, 75);
+    border-radius: 2px;
+}
+
+#menu-btn {
+    border-radius: 2px;
+    padding: 4px 12px 4px 12px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgb(69, 88, 199);
+    color: white;
+    border: none;
+    z-index: 999;
+}

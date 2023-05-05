@@ -1,0 +1,29 @@
+<section class="container">
+    <!-- <div class="my-5 dashboard"> -->
+        <h2 style="text-align: center;">Social media posts</h2>
+        <div class="row">
+
+        <div id="twitter-tags">
+            <label>Zoeken op tags</label>
+
+            <form (ngSubmit)="getByTag()">
+            <div class="input-group mb-3">
+                <input type="text" [(ngModel)]="tagInput" name="tagInput" class="form-control" placeholder="#brand" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-primary" type="submit">Zoek</button>
+                </div>
+              </div>
+            </form>
+
+            <label>Resultaten</label>
+            <div class="list-group" *ngIf="twitterList" id="twitter-list">
+                <div *ngFor="let twitter of twitterList.results">
+                    <a class="list-group-item" href="https://twitter.com/profile/status/{{twitter.id}}" target="_blank">
+                        {{twitter.created_at}}<br /> 
+                        {{twitter.text}}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

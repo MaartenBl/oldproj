@@ -1,0 +1,30 @@
+<section class="container">
+  <!-- Container for sidebar -->
+  <ng-sidebar-container style="height: 100vh;" id="menu">
+      <!-- Sidebar-->
+      <ng-sidebar [(opened)]="showSidebar" mode="push" position="top">
+      <div>
+          <h1>Menu</h1>
+          <div id="menu-links">
+            <a href="/"><i class="fas fa-columns"></i> Dashboard</a><br />
+            <!-- <a href="/incident/information"><i class="fas fa-question-circle"></i> Incidenten informatie</a><br /> -->
+            <!-- <a href="/incident/create"><i class="fas fa-plus"></i> Incidenten nieuw</a><br /> -->
+            <a href="/"><i class="fas fa-car-crash"></i> Incidenten</a><br />
+            <a href="/incidentsmap"><i class="fas fa-map-marker-alt"></i> Incidenten kaart</a><br />
+            <a href="/socialmedia/posts"><i class="fab fa-twitter"></i> Social media</a><br />
+            <!-- <a href="/logout"><i class="fas fa-sign-out-alt"></i> Afmelden</a><br /> -->
+          </div>
+          <hr>
+      </div>
+      </ng-sidebar>
+      <!-- Page content -->
+      <div ng-sidebar-content class="page-content">
+          <section>
+              <button (click)="toggleSidebar()" id="menu-btn"><i class="fas fa-bars"></i> Menu</button>
+              <div id="content-wrap">
+                <router-outlet></router-outlet>
+              </div>
+          </section>
+      </div>
+  </ng-sidebar-container>
+</section>

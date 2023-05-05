@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 5vh;
+}
+
+hr {
+    background-color: white;
+}

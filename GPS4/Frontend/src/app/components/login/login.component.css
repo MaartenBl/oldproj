@@ -1,0 +1,23 @@
+.container {
+    margin-top: 6vh;
+}
+
+.login {
+    text-align: center;
+}
+
+#login-form {
+    width: 45%;
+
+    margin: auto;
+    margin-top: 25px;
+}
+
+#login-form button {
+    width: 100%;
+}
+
+.login label {
+    display: block;
+    text-align: left;
+}
