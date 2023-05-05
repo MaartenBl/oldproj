@@ -39,3 +39,8 @@ See individual folder for information about the snippets.
 * Backend - Google Cloud / Firebase
 
 Worked on a small project with Flutter to get to know the language better. Unfinished project.
+
+# LED Matrix - Hobby Project
+C++ & Arduino
+
+Just some small hobby code used to mess around with a LED Matrix and Arduino Uno. This was also later used for another project for Fontys.
