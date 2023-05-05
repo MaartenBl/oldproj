@@ -1,0 +1,21 @@
+<h1><label>List of matches</label></h1>
+<table class="table table-dark table-hover table-sm">
+    <thead>
+        <tr class="table-info">
+            <th scope="col">#</th>
+            <th scope="col">Location</th>
+            <th scope="col">Home team</th>
+            <th scope="col">Away team</th>
+            <th scope="col">Score</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr scope="row" *ngFor="let match of listofMatches">
+            <td>{{match.id}}</td>
+            <td>{{match.location}}</td>
+            <td>{{match.homeTeam.name}}</td>
+            <td>{{match.awayTeam.name}}</td>
+            <td>{{match.score}}</td>
+        </tr>
+    </tbody>
+</table>

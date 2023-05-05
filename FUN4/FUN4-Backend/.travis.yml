@@ -1,0 +1,18 @@
+language: java
+sudo: true
+dist: trusty
+jdk:
+ - oraclejdk9
+addons:
+  apt:
+    packages:
+      - oracle-java9-installer
+before_install:
+  - chmod +x mvnw
+deploy:
+ provider: heroku
+ api-key: 
+  secure: 956073a9-f36f-42d1-82e7-72c0b25b59f3
+ app: lippep-spring-boot-test
+install:
+  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
