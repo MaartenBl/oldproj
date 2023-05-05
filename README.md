@@ -44,3 +44,7 @@ Worked on a small project with Flutter to get to know the language better. Unfin
 C++ & Arduino
 
 Just some small hobby code used to mess around with a LED Matrix and Arduino Uno. This was also later used for another project for Fontys.
+
+# Minor (Open Innovation) - Group Project
+* Frontend - VueJS
+* Unity - C++/C#
