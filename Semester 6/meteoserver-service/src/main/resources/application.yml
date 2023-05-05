@@ -1,0 +1,37 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: meteoserver-service
+  rabbitmq:
+    dynamic: true
+    host: host.docker.internal
+    port: 5672
+    username: guest
+    password: guest
+
+eureka:
+  instance:
+    preferIpAddress: true
+    hostname: host.docker.internal
+    nonSecurePortEnabled: true
+    nonSecurePort: 8083
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${eureka.instance.nonsecureport}/eureka
+    healthcheck:
+      enabled: true
+
+management:
+  endpoint:
+    health:
+      show-details: always
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: prometheus,health,info,metric

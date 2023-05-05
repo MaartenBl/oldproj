@@ -1,0 +1,37 @@
+server:
+  port: 8089
+
+spring:
+  application:
+    name: user-service
+  jpa:
+    database: MYSQL
+    hibernate:
+      ddl-auto: validate
+  datasource:
+    url: jdbc:mysql://host.docker.internal:3307/userdb
+    username: root
+    password: my-secret-pew
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+eureka:
+  instance:
+    preferIpAddress: true
+    hostname: host.docker.internal
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:8083/eureka
+    healthcheck:
+      enabled: true
+management:
+  endpoint:
+    health:
+      show-details: always
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: prometheus,health,info,metric

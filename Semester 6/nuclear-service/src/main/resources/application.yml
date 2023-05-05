@@ -1,0 +1,17 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: nuclear-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8083/eureka
+    healthcheck:
+      enabled: true
+
+management:
+  endpoint:
+    health:
+      show-details: always #Change to authorized access only later!!!

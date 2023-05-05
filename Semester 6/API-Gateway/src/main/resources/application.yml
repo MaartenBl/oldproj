@@ -1,0 +1,93 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: "API-GATEWAY"
+  cloud:
+    gateway:
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "http://host.docker.internal:3000"
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+      routes:
+        - id: invoiceRoute
+          uri: lb://invoice-service
+          predicates:
+            - Path=/invoice/{segment}
+        - id: marketRoute
+          uri: lb://market-service
+          predicates:
+            - Path=/market/api/{segment}
+        - id: internationalRoute
+          uri: http://shielded-bastion-42632.herokuapp.com
+          predicates:
+            - Path=/api/{segment}
+        - id: userRoute
+          uri: lb://user-service
+          predicates:
+            - Path=/user/{segment}
+        - id: nuclearRoute
+          uri: lb://nuclear-service
+          predicates:
+            - Path=/nuclear/{segment}
+        - id: oilRoute
+          uri: lb://oil-service
+          predicates:
+            - Path=/oil/{segment}
+        - id: windRoute
+          uri: lb://wind-service
+          predicates:
+            - Path=/wind/{segment}
+        - id: gasRoute
+          uri: lb://gas-service
+          predicates:
+            - Path=/gas/{segment}
+        - id: zonRoute
+          uri: lb://sun-service 
+          predicates:
+            - Path=/sun/{segment}
+        - id: meteoserverRoute
+          uri: lb://meteoserver-service
+          predicates:
+            - Path=/meteoserver/{segment}
+      metrics:
+        enabled: true
+
+management:
+  endpoint:
+    gateway:
+      enabled: true
+    shutdown:
+      enabled: true
+    health:
+      show-details: always
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+eureka:
+  instance:
+    nonSecurePortEnabled: true
+    nonSecurePort: 8083
+    preferIpAddress: true
+    hostname: host.docker.internal
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${eureka.instance.non-secure-port}/eureka
+    healthcheck:
+      enabled: true
+  metrics:
+    export:
+      prometheus:
+        enabled: true

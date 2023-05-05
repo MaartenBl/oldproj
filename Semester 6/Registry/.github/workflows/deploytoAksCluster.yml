@@ -1,0 +1,50 @@
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    
+    - uses: azure/docker-login@v1
+      with:
+        login-server: gridnorth.azurecr.io
+        username: ${{ secrets.acr_gridnorth_username }}
+        password: ${{ secrets.acr_gridnorth_password }}
+    
+    - name: Build and push image to ACR
+      id: build-image
+      run: |
+        docker build "$GITHUB_WORKSPACE/" -f  "Dockerfile" -t gridnorth.azurecr.io/gridnorthcluster:${{ github.sha }} --label dockerfile-path=Dockerfile
+        docker push gridnorth.azurecr.io/gridnorthcluster:${{ github.sha }}
+    
+    - uses: azure/k8s-set-context@v1
+      with:
+         kubeconfig: ${{ secrets.aks_gridnorthcluster_kubeConfig }}
+      id: login
+    
+    - name: Create namespace
+      run: |
+        namespacePresent=`kubectl get namespace | grep gridnorthservices | wc -l`
+        if [ $namespacePresent -eq 0 ]
+        then
+            echo `kubectl create namespace gridnorthservices`
+        fi
+
+    - uses: azure/k8s-create-secret@v1
+      with:
+        namespace: gridnorthservices
+        container-registry-url: gridnorth.azurecr.io
+        container-registry-username: ${{ secrets.acr_gridnorth_username }}
+        container-registry-password: ${{ secrets.acr_gridnorth_password }}
+        secret-name: gridnorthcludockerauth
+       
+    - uses: azure/k8s-deploy@v1.2
+      with:
+        namespace: gridnorthservices
+        manifests: |
+          manifests/deployment.yml
+          manifests/service.yml
+        images: |
+          gridnorth.azurecr.io/gridnorthcluster:${{ github.sha }}
+        imagepullsecrets: |
+          gridnorthcludockerauth

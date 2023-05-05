@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\main",
+    "\\src\\main\\java",
+    "\\src\\main\\java\\com",
+    "\\src\\main\\java\\com\\service",
+    "\\src\\main\\java\\com\\service\\windservice",
+    "\\src\\main\\java\\com\\service\\windservice\\config",
+    "\\src\\main\\java\\com\\service\\windservice\\model",
+    "\\src\\main\\java\\com\\service\\windservice\\rabbit"
+  ],
+  "SelectedNode": "\\src\\main\\java\\com\\service\\windservice\\config\\MessageBrokerConfiguration.java",
+  "PreviewInSolutionExplorer": false
+}

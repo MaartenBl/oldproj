@@ -1,0 +1,173 @@
+version: '3'
+services:
+
+    ##################################
+    ##         Frontend             ##
+    ##################################
+    website:
+        container_name: frontend
+        hostname: website
+        image: s631egn/dashboard:latest
+        tty: true
+        ports:
+            - 3000:3000
+    
+    ##################################
+    ##         Messaging            ##
+    ##################################
+    rabbitmq:
+        container_name: rabbitmq
+        hostname: rabbitmq
+        image: rabbitmq:3-management
+        ports:
+            - 5672:5672
+            - 15672:15672
+        restart: always
+        healthcheck:
+            test: [ "CMD", "curl", "-f", "http://rabbitmq:5672" ]
+            interval: 5s
+            timeout: 15s
+            retries: 1
+    
+    rabbitconsumer:
+        container_name: rabbitconsumer
+        hostname: rabbitconsumer
+        image: s631egn/rabbitconsumer
+        ports: 
+            - 9797:9797
+        depends_on: 
+            - rabbitmq
+            - registry
+            - gateway
+            - prometheus
+
+    ##################################
+    ##            Cache             ##
+    ##################################
+    redis:
+        container_name: redis
+        hostname: redis
+        image: redis:latest
+        environment:
+            - REDIS_PASSWORD=mypass
+        ports:
+            - 6379:6379
+    
+    ##################################
+    ##          Eureka              ##
+    ##################################
+    registry:
+        container_name: registry
+        hostname: registry
+        image: s631egn/registry
+        ports:
+            - 8083:8083
+        restart: always
+        depends_on: 
+            - rabbitmq
+    
+    ##################################
+    ##         Gateway              ##
+    ##################################
+    gateway:
+        container_name: gateway
+        hostname: gateway
+        image: s631egn/gateway
+        ports:
+            - 8090:8090
+        restart: always
+        depends_on: 
+            - registry
+
+    ##################################
+    ##         Database             ##
+    ##################################
+    database:
+        image: mysql:latest
+        container_name: userdb
+        tty: true
+        command: --default-authentication-plugin=mysql_native_password
+        environment:
+            MYSQL_ROOT_PASSWORD: my-secret-pew
+            MYSQL_DATABASE: userdb
+        ports:
+            - "3307:3306"
+        restart: always
+        expose: 
+            - 3307
+        cap_add: 
+            - SYS_NICE
+    
+    ##################################
+    ##         Monitoring           ##
+    ##################################
+    prometheus:
+        image: prom/prometheus
+        container_name: prometheus
+        hostname: prometheus
+        ports:
+            - 9090:9090
+        volumes:
+            - ./config:/prometheus
+        command: 
+            - '--config.file=/prometheus/prometheus.yml'
+    
+    grafana:
+        image: grafana/grafana
+        container_name: grafana
+        hostname: grafana
+        ports:
+            - 3001:3001
+        depends_on: 
+            - prometheus
+
+
+    ##################################
+    ##         Services             ##
+    ##################################
+    userservice:
+        container_name: userservice
+        hostname: userservice
+        image: s631egn/userservice
+        environment: 
+            SPRING_DATASOURCE_URL: jdbc:mysql://database:3306/userdb?autoReconnect=true&useSSL=false
+        ports:
+            - 8089:8089
+        depends_on: 
+            - database
+    
+    meteoserver:
+        container_name: meteoserver
+        hostname: meteoserver
+        image: s631egn/meteoserver
+        ports: 
+            - 8082:8082
+        depends_on: 
+            - rabbitconsumer
+    
+    sunservice:
+        container_name: sunservice
+        hostname: sunservice
+        image: s631egn/sunservice
+        ports:
+            - 8088:8088
+        depends_on: 
+            - rabbitconsumer
+
+    windservice:
+        container_name: windservice
+        hostname: windservice
+        image: s631egn/windservice
+        ports: 
+            - 8086:8086
+        depends_on: 
+            - rabbitconsumer
+
+    gasservice:
+        container_name: gasservice
+        hostname: gasservice
+        image: s631egn/gasservice
+        ports: 
+            - 8091:8091
+        depends_on: 
+            - rabbitconsumer

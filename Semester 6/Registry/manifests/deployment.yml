@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "gridnorthcluster-0714"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "gridnorthcluster-0714"
+  template:
+    metadata:
+      labels:
+        app: "gridnorthcluster-0714"
+    spec:
+      containers:
+        - name: "gridnorthcluster-0714"
+          image: "gridnorth.azurecr.io/gridnorthcluster"
+          ports:
+          - containerPort: 80

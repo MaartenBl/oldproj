@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f5be3ffd-fd9f-4e8b-89e0-bf28e22f9e8c" name="Default Changelist" comment="Added custom markers to map and market view">
+      <change afterPath="$PROJECT_DIR$/src/services/API/InvoiceBuy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/API/marketBase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/API/MarketAccount.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/API/MarketAccount.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/API/MarketBuy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/API/MarketBuy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/API/MarketSell.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/API/MarketSell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/API/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/API/base.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="frontend/productionmapping-102" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pWPHGBiBCJbMd91gGVL1WNTZHM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../S63-1 services/wind-service" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="ts.external.directory.path" value="C:\Users\Freaqke\Desktop\Dashboard\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Freaqke\Desktop\Dashboard" />
+      <recent name="C:\Users\Freaqke\Desktop\Dashboard\src\assets\img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Freaqke\Desktop\Dashboard\src\components\Dropdowns" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Index.test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/__tests__/views/Index.test.js" working-dir="$PROJECT_DIR$/src/__tests__/views">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.Index.test.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5be3ffd-fd9f-4e8b-89e0-bf28e22f9e8c" name="Default Changelist" comment="" />
+      <created>1615295783250</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615295783250</updated>
+      <workItem from="1615295784414" duration="2502000" />
+      <workItem from="1615389045580" duration="49000" />
+      <workItem from="1615888133765" duration="4947000" />
+      <workItem from="1616402206642" duration="12812000" />
+      <workItem from="1616489863657" duration="21387000" />
+      <workItem from="1616522276897" duration="1093000" />
+      <workItem from="1616571990683" duration="2276000" />
+      <workItem from="1616664317934" duration="2599000" />
+      <workItem from="1616673859104" duration="1343000" />
+      <workItem from="1618221273831" duration="9394000" />
+      <workItem from="1618317050737" duration="7311000" />
+      <workItem from="1618386802137" duration="11664000" />
+      <workItem from="1618412142253" duration="274000" />
+      <workItem from="1618475290338" duration="10867000" />
+      <workItem from="1619428899028" duration="5318000" />
+      <workItem from="1619683170819" duration="16411000" />
+      <workItem from="1619728409699" duration="599000" />
+      <workItem from="1620229639951" duration="153000" />
+      <workItem from="1620231537954" duration="1755000" />
+      <workItem from="1620250072801" duration="4017000" />
+      <workItem from="1620391874689" duration="1875000" />
+      <workItem from="1620637225932" duration="11238000" />
+      <workItem from="1620731247792" duration="9757000" />
+      <workItem from="1620741179701" duration="13000" />
+      <workItem from="1621077952712" duration="8007000" />
+      <workItem from="1621173290729" duration="9974000" />
+      <workItem from="1621233286404" duration="3782000" />
+      <workItem from="1621607756746" duration="42000" />
+      <workItem from="1622449805103" duration="11374000" />
+      <workItem from="1622546354584" duration="3986000" />
+      <workItem from="1622654055374" duration="9036000" />
+      <workItem from="1622663259636" duration="7950000" />
+      <workItem from="1622672804461" duration="2296000" />
+      <workItem from="1622707036080" duration="6651000" />
+      <workItem from="1623747289069" duration="1850000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added leaflet maps and weather components">
+      <created>1620637354185</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620637354185</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added leaflet maps and weather components" />
+    <MESSAGE value="Added custom markers to map and market view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added custom markers to map and market view" />
+  </component>
+</project>

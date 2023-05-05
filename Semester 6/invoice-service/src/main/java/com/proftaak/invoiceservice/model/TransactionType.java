@@ -1,0 +1,11 @@
+package com.proftaak.invoiceservice.model;
+
+public enum TransactionType {
+    BALANCERESPONSE,
+    BUYOFFERREQUEST,
+    BUYOFFERRESPONSE,
+    CREATEACCOUNTREQUEST,
+    CREATESELLOFFERREQUEST,
+    LOGINACCOUNTREQUEST,
+    OFFERRESPONSE
+}

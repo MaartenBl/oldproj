@@ -1,0 +1,14 @@
+version: '3.3'
+services:
+  oil-simulation-service:
+    image: songify.azurecr.io/s631egn/oilsimulation.service:75
+    hostname: oil-simulation-service
+    deploy:
+      replicas: 3
+      placement:
+          max_replicas_per_node: 1
+      restart_policy:
+        condition: on-failure
+        max_attempts: 3
+    ports:
+      - 8085:8080

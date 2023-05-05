@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "songify-d454"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "songify-d454"
+  template:
+    metadata:
+      labels:
+        app: "songify-d454"
+    spec:
+      containers:
+        - name: "songify-d454"
+          image: "oilservice63.azurecr.io/songify"
+          ports:
+          - containerPort: 80

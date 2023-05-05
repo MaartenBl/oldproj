@@ -1,0 +1,17 @@
+server:
+  port: 8083
+
+eureka:
+  instance:
+    preferIpAddress: true
+    hostname: host.docker.internal
+    nonSecurePortEnabled: true
+    nonSecurePort: 8083
+    homePageUrl: http://${eureka.instance.hostname}/
+    statusPageUrl: http://${eureka.instance.hostname}/actuator/info/
+    healthCheckUrl: http://${eureka.instance.hostname}/actuator/health/
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${eureka.instance.non-secure-port}/eureka

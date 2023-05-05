@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: oil-service
+  datasource:
+    driver-class-name: 
+server:
+  port: 8085
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8083/eureka

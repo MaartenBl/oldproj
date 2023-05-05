@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "928962658328",
+    "firebase_url": "https://cimregistration-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "cimregistration",
+    "storage_bucket": "cimregistration.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928962658328:android:85cd4db9e970ec4948c36d",
+        "android_client_info": {
+          "package_name": "com.example.frontend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928962658328-o466fkgatdinhc14v8ng1l2ohcmvvfrq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr90J4bBxkEddKZRXawfQ8dkkjYpMz6T8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928962658328-o466fkgatdinhc14v8ng1l2ohcmvvfrq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
