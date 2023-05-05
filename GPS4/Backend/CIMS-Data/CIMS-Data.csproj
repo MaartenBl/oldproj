@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>CIMS_Data</RootNamespace>
+        <ProjectGuid>5e56b8ab-688e-4241-9bff-f257345b256b</ProjectGuid>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CIMS-Models\CIMS-Models.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="3.1.3" />
+      <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+      <PackageReference Include="System.Reactive" Version="4.4.1" />
+    </ItemGroup>
+
+</Project>

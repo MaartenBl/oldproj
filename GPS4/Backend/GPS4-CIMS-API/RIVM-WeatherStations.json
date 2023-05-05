@@ -1,0 +1,952 @@
+[
+  {
+    "Longitude": 52.07715,
+    "Latitude": 4.289185,
+    "Number": "NL10404",
+    "EnglishDescription": "Den Haag-Rebecquestraat",
+    "DutchDescription": "Den Haag-Rebecquestraat",
+    "Province": null,
+    "Location": "Den Haag-Rebecquestraat",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 52.07507,
+    "Latitude": 4.315872,
+    "Number": "NL10445",
+    "EnglishDescription": "Den Haag-Amsterdamse Veerkade",
+    "DutchDescription": "Den Haag-Amsterdamse Veerkade",
+    "Province": null,
+    "Location": "Den Haag-Amsterdamse Veerkade",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 52.039024,
+    "Latitude": 4.359376,
+    "Number": "NL10446",
+    "EnglishDescription": "Den Haag-Bleriotlaan",
+    "DutchDescription": "Den Haag-Bleriotlaan",
+    "Province": null,
+    "Location": "Den Haag-Bleriotlaan",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 51.65373,
+    "Latitude": 4.515271,
+    "Number": "NL10246",
+    "EnglishDescription": "Fijnaart-Zwingelspaansedijk",
+    "DutchDescription": "Fijnaart-Zwingelspaansedijk",
+    "Province": null,
+    "Location": "Fijnaart-Zwingelspaansedijk",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 52.46304,
+    "Latitude": 4.601842,
+    "Number": "NL49551",
+    "EnglishDescription": "IJmuiden-Kanaalstraat",
+    "DutchDescription": "IJmuiden-Kanaalstraat",
+    "Province": null,
+    "Location": "IJmuiden-Kanaalstraat",
+    "Organisation": "GGD Amsterdam"
+  },
+  {
+    "Longitude": 52.49399,
+    "Latitude": 4.601986,
+    "Number": "NL49553",
+    "EnglishDescription": "Wijk aan Zee-De Banjaert",
+    "DutchDescription": "Wijk aan Zee-De Banjaert",
+    "Province": null,
+    "Location": "Wijk aan Zee-De Banjaert",
+    "Organisation": "GGD Amsterdam"
+  },
+  {
+    "Longitude": 52.489304,
+    "Latitude": 4.640531,
+    "Number": "NL49570",
+    "EnglishDescription": "Beverwijk-Creutzberglaan",
+    "DutchDescription": "Beverwijk-Creutzberglaan",
+    "Province": null,
+    "Location": "Beverwijk-Creutzberglaan",
+    "Organisation": "GGD Amsterdam"
+  },
+  {
+    "Longitude": 52.47887,
+    "Latitude": 4.579343,
+    "Number": "NL49573",
+    "EnglishDescription": "Velsen-Reyndersweg",
+    "DutchDescription": "Velsen-Reyndersweg",
+    "Province": null,
+    "Location": "Velsen-Reyndersweg",
+    "Organisation": "GGD Amsterdam"
+  },
+  {
+    "Longitude": 52.4744,
+    "Latitude": 4.6288,
+    "Number": "NL49572",
+    "EnglishDescription": "Velsen-Staalstraat",
+    "DutchDescription": "Velsen-Staalstraat",
+    "Province": null,
+    "Location": "Velsen-Staalstraat",
+    "Organisation": "GGD Amsterdam"
+  },
+  {
+    "Longitude": 52.398438,
+    "Latitude": 4.728581,
+    "Number": "NL49703",
+    "EnglishDescription": "Spaarnwoude-Machineweg",
+    "DutchDescription": "Spaarnwoude-Machineweg",
+    "Province": null,
+    "Location": "Spaarnwoude-Machineweg",
+    "Organisation": "GGD Amsterdam"
+  },
+  {
+    "Longitude": 52.56359,
+    "Latitude": 4.8617,
+    "Number": "NL49556",
+    "EnglishDescription": "De Rijp-Oostdijkje",
+    "DutchDescription": "De Rijp-Oostdijkje",
+    "Province": null,
+    "Location": "De Rijp-Oostdijkje",
+    "Organisation": "GGD Amsterdam"
+  },
+  {
+    "Longitude": 51.668934,
+    "Latitude": 4.541659,
+    "Number": "NL53015",
+    "EnglishDescription": "Klundert-Kerkweg",
+    "DutchDescription": "Klundert-Kerkweg",
+    "Province": null,
+    "Location": "Klundert-Kerkweg",
+    "Organisation": "OMWB (Midden en West Brabant)"
+  },
+  {
+    "Longitude": 52.42023,
+    "Latitude": 4.83206,
+    "Number": "NL49546",
+    "EnglishDescription": "Zaanstad-Hemkade",
+    "DutchDescription": "Zaanstad-Hemkade",
+    "Province": null,
+    "Location": "Zaanstad-Hemkade",
+    "Organisation": "GGD Amsterdam"
+  },
+  {
+    "Longitude": 52.38542,
+    "Latitude": 4.87575,
+    "Number": "NL49002",
+    "EnglishDescription": "Amsterdam-Haarlemmerweg",
+    "DutchDescription": "Amsterdam-Haarlemmerweg",
+    "Province": null,
+    "Location": "Amsterdam-Haarlemmerweg",
+    "Organisation": "GGD Amsterdam"
+  },
+  {
+    "Longitude": 52.389313,
+    "Latitude": 4.943822,
+    "Number": "NL49003",
+    "EnglishDescription": "Amsterdam-Nieuwendammerdijk",
+    "DutchDescription": "Amsterdam-Nieuwendammerdijk",
+    "Province": null,
+    "Location": "Amsterdam-Nieuwendammerdijk",
+    "Organisation": "GGD Amsterdam"
+  },
+  {
+    "Longitude": 52.381332,
+    "Latitude": 4.845233,
+    "Number": "NL49007",
+    "EnglishDescription": "Amsterdam-Einsteinweg",
+    "DutchDescription": "Amsterdam-Einsteinweg",
+    "Province": null,
+    "Location": "Amsterdam-Einsteinweg",
+    "Organisation": "GGD Amsterdam"
+  },
+  {
+    "Longitude": 52.389984,
+    "Latitude": 4.887811,
+    "Number": "NL49012",
+    "EnglishDescription": "Amsterdam-Van Diemenstraat",
+    "DutchDescription": "Amsterdam-Van Diemenstraat",
+    "Province": null,
+    "Location": "Amsterdam-Van Diemenstraat",
+    "Organisation": "GGD Amsterdam"
+  },
+  {
+    "Longitude": 52.359715,
+    "Latitude": 4.866208,
+    "Number": "NL49014",
+    "EnglishDescription": "Amsterdam-Vondelpark",
+    "DutchDescription": "Amsterdam-Vondelpark",
+    "Province": null,
+    "Location": "Amsterdam-Vondelpark",
+    "Organisation": "GGD Amsterdam"
+  },
+  {
+    "Longitude": 52.39397,
+    "Latitude": 4.870157,
+    "Number": "NL49016",
+    "EnglishDescription": "Amsterdam-Westerpark",
+    "DutchDescription": "Amsterdam-Westerpark",
+    "Province": null,
+    "Location": "Amsterdam-Westerpark",
+    "Organisation": "GGD Amsterdam"
+  },
+  {
+    "Longitude": 52.35804,
+    "Latitude": 4.8997,
+    "Number": "NL49017",
+    "EnglishDescription": "Amsterdam-Stadhouderskade",
+    "DutchDescription": "Amsterdam-Stadhouderskade",
+    "Province": null,
+    "Location": "Amsterdam-Stadhouderskade",
+    "Organisation": "GGD Amsterdam"
+  },
+  {
+    "Longitude": 52.372055,
+    "Latitude": 4.9044,
+    "Number": "NL49019",
+    "EnglishDescription": "Amsterdam-Oude Schans",
+    "DutchDescription": "Amsterdam-Oude Schans",
+    "Province": null,
+    "Location": "Amsterdam-Oude Schans",
+    "Organisation": "GGD Amsterdam"
+  },
+  {
+    "Longitude": 52.374786,
+    "Latitude": 4.860319,
+    "Number": "NL49020",
+    "EnglishDescription": "Amsterdam-Jan van Galenstraat",
+    "DutchDescription": "Amsterdam-Jan van Galenstraat",
+    "Province": null,
+    "Location": "Amsterdam-Jan van Galenstraat",
+    "Organisation": "GGD Amsterdam"
+  },
+  {
+    "Longitude": 52.32069,
+    "Latitude": 4.988397,
+    "Number": "NL49021",
+    "EnglishDescription": "Amsterdam -Kantershof",
+    "DutchDescription": "Amsterdam -Kantershof",
+    "Province": null,
+    "Location": "Amsterdam -Kantershof",
+    "Organisation": "GGD Amsterdam"
+  },
+  {
+    "Longitude": 52.36681,
+    "Latitude": 4.793344,
+    "Number": "NL49022",
+    "EnglishDescription": "Amsterdam-Ookmeer",
+    "DutchDescription": "Amsterdam-Ookmeer",
+    "Province": null,
+    "Location": "Amsterdam-Ookmeer",
+    "Organisation": "GGD Amsterdam"
+  },
+  {
+    "Longitude": 52.44801,
+    "Latitude": 4.816706,
+    "Number": "NL49701",
+    "EnglishDescription": "Zaandam-Wagenschotpad",
+    "DutchDescription": "Zaandam-Wagenschotpad",
+    "Province": null,
+    "Location": "Zaandam-Wagenschotpad",
+    "Organisation": "GGD Amsterdam"
+  },
+  {
+    "Longitude": 51.393288,
+    "Latitude": 4.3202367,
+    "Number": "NL53001",
+    "EnglishDescription": "Ossendrecht-Burgemeester Voetenstraat",
+    "DutchDescription": "Ossendrecht-Burgemeester Voetenstraat",
+    "Province": null,
+    "Location": "Ossendrecht-Burgemeester Voetenstraat",
+    "Organisation": "OMWB (Midden en West Brabant)"
+  },
+  {
+    "Longitude": 51.69941,
+    "Latitude": 4.623713,
+    "Number": "NL53004",
+    "EnglishDescription": "Moerdijk-Julianastraat",
+    "DutchDescription": "Moerdijk-Julianastraat",
+    "Province": null,
+    "Location": "Moerdijk-Julianastraat",
+    "Organisation": "OMWB (Midden en West Brabant)"
+  },
+  {
+    "Longitude": 51.653206,
+    "Latitude": 4.594882,
+    "Number": "NL53016",
+    "EnglishDescription": "Zevenbergen-Galgenweg",
+    "DutchDescription": "Zevenbergen-Galgenweg",
+    "Province": null,
+    "Location": "Zevenbergen-Galgenweg",
+    "Organisation": "OMWB (Midden en West Brabant)"
+  },
+  {
+    "Longitude": 51.713394,
+    "Latitude": 4.583248,
+    "Number": "NL53020",
+    "EnglishDescription": "Strijensas Buitendijk",
+    "DutchDescription": "Strijensas Buitendijk",
+    "Province": null,
+    "Location": "Strijensas Buitendijk",
+    "Organisation": "OMWB (Midden en West Brabant)"
+  },
+  {
+    "Longitude": 51.977802,
+    "Latitude": 4.121944,
+    "Number": "NL01496",
+    "EnglishDescription": "Rotterdam Hoek van Holland",
+    "DutchDescription": "Rotterdam Hoek van Holland",
+    "Province": null,
+    "Location": "Rotterdam HvHolland",
+    "Organisation": "DCMR (Rijnmond)"
+  },
+  {
+    "Longitude": 53.217796,
+    "Latitude": 6.578901,
+    "Number": "NL10937",
+    "EnglishDescription": "Groningen-Europaweg",
+    "DutchDescription": "Groningen-Europaweg",
+    "Province": null,
+    "Location": "Groningen-Europaweg",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 52.916916,
+    "Latitude": 5.573491,
+    "Number": "NL10918",
+    "EnglishDescription": "Balk-Trophornsterweg",
+    "DutchDescription": "Balk-Trophornsterweg",
+    "Province": null,
+    "Location": "Balk-Trophornsterweg",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 52.428,
+    "Latitude": 4.773,
+    "Number": "NL49704",
+    "EnglishDescription": "Zaanstad-Hoogtij",
+    "DutchDescription": "Zaanstad-Hoogtij",
+    "Province": null,
+    "Location": "Zaanstad-Hoogtij",
+    "Organisation": "GGD Amsterdam"
+  },
+  {
+    "Longitude": 51.634705,
+    "Latitude": 3.916623,
+    "Number": "NL10301",
+    "EnglishDescription": "Zierikzee-Lange Slikweg",
+    "DutchDescription": "Zierikzee-Lange Slikweg",
+    "Province": null,
+    "Location": "Zierikzee-Lange Slikweg",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 53.246536,
+    "Latitude": 6.608937,
+    "Number": "NL10938",
+    "EnglishDescription": "Groningen-Nijensteinheerd",
+    "DutchDescription": "Groningen-Nijensteinheerd",
+    "Province": null,
+    "Location": "Groningen-Nijensteinheerd",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 51.86742,
+    "Latitude": 4.35524,
+    "Number": "NL01485",
+    "EnglishDescription": "Rotterdam-Hoogvliet",
+    "DutchDescription": "Rotterdam-Hoogvliet",
+    "Province": null,
+    "Location": "Rotterdam-Hoogvliet",
+    "Organisation": "DCMR (Rijnmond)"
+  },
+  {
+    "Longitude": 51.93858,
+    "Latitude": 4.4307,
+    "Number": "NL01491",
+    "EnglishDescription": "Overschie-A13",
+    "DutchDescription": "Overschie-A13",
+    "Province": null,
+    "Location": "Overschie-A13",
+    "Organisation": "DCMR (Rijnmond)"
+  },
+  {
+    "Longitude": 51.92711,
+    "Latitude": 4.46136,
+    "Number": "NL01493",
+    "EnglishDescription": "Rotterdam-Statenweg",
+    "DutchDescription": "Rotterdam-Statenweg",
+    "Province": null,
+    "Location": "Rotterdam-Statenweg",
+    "Organisation": "DCMR (Rijnmond)"
+  },
+  {
+    "Longitude": 51.89113,
+    "Latitude": 4.48066,
+    "Number": "NL01487",
+    "EnglishDescription": "Rotterdam-Pleinweg",
+    "DutchDescription": "Rotterdam-Pleinweg",
+    "Province": null,
+    "Location": "Rotterdam-Pleinweg",
+    "Organisation": "DCMR (Rijnmond)"
+  },
+  {
+    "Longitude": 51.91226,
+    "Latitude": 4.47919,
+    "Number": "NL01492",
+    "EnglishDescription": "Rotterdam-Vasteland",
+    "DutchDescription": "Rotterdam-Vasteland",
+    "Province": null,
+    "Location": "Rotterdam-Vasteland",
+    "Organisation": "DCMR (Rijnmond)"
+  },
+  {
+    "Longitude": 51.89361,
+    "Latitude": 4.48759,
+    "Number": "NL01488",
+    "EnglishDescription": "Rotterdam-Zwartewaalstraat",
+    "DutchDescription": "Rotterdam-Zwartewaalstraat",
+    "Province": null,
+    "Location": "Rotterdam-Zwartewaalstraat",
+    "Organisation": "DCMR (Rijnmond)"
+  },
+  {
+    "Longitude": 51.914234,
+    "Latitude": 4.479923,
+    "Number": "NL10418",
+    "EnglishDescription": "Rotterdam-Schiedamsevest",
+    "DutchDescription": "Rotterdam-Schiedamsevest",
+    "Province": null,
+    "Location": "Rotterdam-Schiedamsevest",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 51.889,
+    "Latitude": 4.3125,
+    "Number": "NL01484",
+    "EnglishDescription": "Rotterdam-Geulhaven",
+    "DutchDescription": "Rotterdam-Geulhaven",
+    "Province": null,
+    "Location": "Rotterdam-Geulhaven",
+    "Organisation": "DCMR (Rijnmond)"
+  },
+  {
+    "Longitude": 51.11919,
+    "Latitude": 6.042399,
+    "Number": "NL10107",
+    "EnglishDescription": "Posterholt-Vlodropperweg",
+    "DutchDescription": "Posterholt-Vlodropperweg",
+    "Province": null,
+    "Location": "Posterholt-Vlodropperweg",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 52.0918,
+    "Latitude": 6.605367,
+    "Number": "NL10722",
+    "EnglishDescription": "Eibergen-Lintveldseweg",
+    "DutchDescription": "Eibergen-Lintveldseweg",
+    "Province": null,
+    "Location": "Eibergen-Lintveldseweg",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 52.654144,
+    "Latitude": 6.017571,
+    "Number": "NL10818",
+    "EnglishDescription": "Barsbeek-De Veenen",
+    "DutchDescription": "Barsbeek-De Veenen",
+    "Province": null,
+    "Location": "Barsbeek-De Veenen",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 53.330425,
+    "Latitude": 6.276815,
+    "Number": "NL10934",
+    "EnglishDescription": "Kollumerwaard-Hooge Zuidwal",
+    "DutchDescription": "Kollumerwaard-Hooge Zuidwal",
+    "Province": null,
+    "Location": "Kollumerwaard-Hooge Zuidwal",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 52.875725,
+    "Latitude": 6.932432,
+    "Number": "NL10929",
+    "EnglishDescription": "Valthermond-Noorderdiep",
+    "DutchDescription": "Valthermond-Noorderdiep",
+    "Province": null,
+    "Location": "Valthermond-Noorderdiep",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 52.423214,
+    "Latitude": 5.59338,
+    "Number": "NL10617",
+    "EnglishDescription": "Biddinghuizen-Kuilweg",
+    "DutchDescription": "Biddinghuizen-Kuilweg",
+    "Province": null,
+    "Location": "Biddinghuizen-Kuilweg",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 51.97833,
+    "Latitude": 5.969485,
+    "Number": "NL54004",
+    "EnglishDescription": "Arnhem Velperbroek",
+    "DutchDescription": "Arnhem Velperbroek",
+    "Province": null,
+    "Location": "Arnhem Velperbroek",
+    "Organisation": "ODRA (Regio Arnhem)"
+  },
+  {
+    "Longitude": 51.962296,
+    "Latitude": 5.897657,
+    "Number": "NL54010",
+    "EnglishDescription": "Arnhem GelreDome",
+    "DutchDescription": "Arnhem GelreDome",
+    "Province": null,
+    "Location": "Arnhem GelreDome",
+    "Organisation": "ODRA (Regio Arnhem)"
+  },
+  {
+    "Longitude": 52.80342,
+    "Latitude": 5.048975,
+    "Number": "NL10538",
+    "EnglishDescription": "Wieringerwerf-Medemblikkerweg",
+    "DutchDescription": "Wieringerwerf-Medemblikkerweg",
+    "Province": null,
+    "Location": "Wieringerwerf-Medemblikkerweg",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 51.841373,
+    "Latitude": 5.857777,
+    "Number": "NL10741",
+    "EnglishDescription": "Nijmegen-Graafseweg",
+    "DutchDescription": "Nijmegen-Graafseweg",
+    "Province": null,
+    "Location": "Nijmegen-Graafseweg",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 51.838223,
+    "Latitude": 5.856938,
+    "Number": "NL10742",
+    "EnglishDescription": "Nijmegen-Ruyterstraat",
+    "DutchDescription": "Nijmegen-Ruyterstraat",
+    "Province": null,
+    "Location": "Nijmegen-Ruyterstraat",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 52.11162,
+    "Latitude": 5.708419,
+    "Number": "NL10738",
+    "EnglishDescription": "Wekerom-Riemterdijk",
+    "DutchDescription": "Wekerom-Riemterdijk",
+    "Province": null,
+    "Location": "Wekerom-Riemterdijk",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 50.88796,
+    "Latitude": 5.970496,
+    "Number": "NL10136",
+    "EnglishDescription": "Heerlen-Looierstraat",
+    "DutchDescription": "Heerlen-Looierstraat",
+    "Province": null,
+    "Location": "Heerlen-Looierstraat",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 50.90032,
+    "Latitude": 5.986853,
+    "Number": "NL10138",
+    "EnglishDescription": "Heerlen-Jamboreepad",
+    "DutchDescription": "Heerlen-Jamboreepad",
+    "Province": null,
+    "Location": "Heerlen-Jamboreepad",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 51.92139,
+    "Latitude": 4.40139,
+    "Number": "NL01494",
+    "EnglishDescription": "Schiedam-A.Arienstraat",
+    "DutchDescription": "Schiedam-A.Arienstraat",
+    "Province": null,
+    "Location": "Schiedam-A.Arienstraat",
+    "Organisation": "DCMR (Rijnmond)"
+  },
+  {
+    "Longitude": 50.84594,
+    "Latitude": 5.71475,
+    "Number": "NL50004",
+    "EnglishDescription": "Maastricht-A2-Nassaulaan",
+    "DutchDescription": "Maastricht-A2-Nassaulaan",
+    "Province": null,
+    "Location": "Maastricht-A2-Nassaulaan",
+    "Organisation": "RUDZL (Limburg)"
+  },
+  {
+    "Longitude": 50.85205,
+    "Latitude": 5.6758,
+    "Number": "NL50007",
+    "EnglishDescription": "Maastricht-Hoge_Fronten",
+    "DutchDescription": "Maastricht-Hoge_Fronten",
+    "Province": null,
+    "Location": "Maastricht-Hoge_Fronten",
+    "Organisation": "RUDZL (Limburg)"
+  },
+  {
+    "Longitude": 50.85982,
+    "Latitude": 5.71382,
+    "Number": "NL50009",
+    "EnglishDescription": "Maastricht-A2-Kasteel_Hillenraadweg",
+    "DutchDescription": "Maastricht-A2-Kasteel_Hillenraadweg",
+    "Province": null,
+    "Location": "Maastricht-A2-Kasteel_Hillenraadweg",
+    "Organisation": "RUDZL (Limburg)"
+  },
+  {
+    "Longitude": 50.841053,
+    "Latitude": 5.7189775,
+    "Number": "NL50010",
+    "EnglishDescription": "Maastricht-A2-Philipsweg",
+    "DutchDescription": "Maastricht-A2-Philipsweg",
+    "Province": null,
+    "Location": "Maastricht-A2-Philipsweg",
+    "Organisation": "RUDZL (Limburg)"
+  },
+  {
+    "Longitude": 50.96309,
+    "Latitude": 5.81071,
+    "Number": "NL50002",
+    "EnglishDescription": "Geleen-Vouershof ",
+    "DutchDescription": "Geleen-Vouershof ",
+    "Province": null,
+    "Location": "Geleen-Vouershof ",
+    "Organisation": "RUDZL (Limburg)"
+  },
+  {
+    "Longitude": 50.98445,
+    "Latitude": 5.82224,
+    "Number": "NL50003",
+    "EnglishDescription": "Geleen-Asterstraat",
+    "DutchDescription": "Geleen-Asterstraat",
+    "Province": null,
+    "Location": "Geleen-Asterstraat",
+    "Organisation": "RUDZL (Limburg)"
+  },
+  {
+    "Longitude": 50.90228,
+    "Latitude": 5.881748,
+    "Number": "NL10133",
+    "EnglishDescription": "Wijnandsrade-Opfergeltstraat",
+    "DutchDescription": "Wijnandsrade-Opfergeltstraat",
+    "Province": null,
+    "Location": "Wijnandsrade-Opfergeltstraat",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 51.54052,
+    "Latitude": 5.85307,
+    "Number": "NL10131",
+    "EnglishDescription": "Vredepeel-Vredeweg",
+    "DutchDescription": "Vredepeel-Vredeweg",
+    "Province": null,
+    "Location": "Vredepeel-Vredeweg",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 51.45412,
+    "Latitude": 6.10821,
+    "Number": "NL50006",
+    "EnglishDescription": "Horst_a/d_Maas-Hoogheide ",
+    "DutchDescription": "Horst_a/d_Maas-Hoogheide ",
+    "Province": null,
+    "Location": "Horst_a/d_Maas-Hoogheide ",
+    "Organisation": "RUDZL (Limburg)"
+  },
+  {
+    "Longitude": 51.43444,
+    "Latitude": 4.359835,
+    "Number": "NL10235",
+    "EnglishDescription": "Huijbergen-Vennekenstraat",
+    "DutchDescription": "Huijbergen-Vennekenstraat",
+    "Province": null,
+    "Location": "Huijbergen-Vennekenstraat",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 51.51844,
+    "Latitude": 5.14845,
+    "Number": "NL10230",
+    "EnglishDescription": "Biest Houtakker-Biestsestraat",
+    "DutchDescription": "Biest Houtakker-Biestsestraat",
+    "Province": null,
+    "Location": "Biest Houtakker-Biestsestraat",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 51.59353,
+    "Latitude": 4.824944,
+    "Number": "NL10240",
+    "EnglishDescription": "Breda-Tilburgseweg",
+    "DutchDescription": "Breda-Tilburgseweg",
+    "Province": null,
+    "Location": "Breda-Tilburgseweg",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 51.60308,
+    "Latitude": 4.781016,
+    "Number": "NL10241",
+    "EnglishDescription": "Breda-Bastenakenstraat",
+    "DutchDescription": "Breda-Bastenakenstraat",
+    "Province": null,
+    "Location": "Breda-Bastenakenstraat",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 51.80066,
+    "Latitude": 4.708239,
+    "Number": "NL10442",
+    "EnglishDescription": "Dordrecht-Bamendaweg",
+    "DutchDescription": "Dordrecht-Bamendaweg",
+    "Province": null,
+    "Location": "Dordrecht-Bamendaweg",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 51.46866,
+    "Latitude": 5.47235,
+    "Number": "NL10236",
+    "EnglishDescription": "Eindhoven-Genovevalaan",
+    "DutchDescription": "Eindhoven-Genovevalaan",
+    "Province": null,
+    "Location": "Eindhoven-Genovevalaan",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 51.44416,
+    "Latitude": 5.444833,
+    "Number": "NL10237",
+    "EnglishDescription": "Eindhoven-Noordbrabantlaan",
+    "DutchDescription": "Eindhoven-Noordbrabantlaan",
+    "Province": null,
+    "Location": "Eindhoven-Noordbrabantlaan",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 51.407364,
+    "Latitude": 5.393328,
+    "Number": "NL10247",
+    "EnglishDescription": "Veldhoven-Europalaan",
+    "DutchDescription": "Veldhoven-Europalaan",
+    "Province": null,
+    "Location": "Veldhoven-Europalaan",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 52.370506,
+    "Latitude": 4.642319,
+    "Number": "NL10550",
+    "EnglishDescription": "Haarlem-Schipholweg",
+    "DutchDescription": "Haarlem-Schipholweg",
+    "Province": null,
+    "Location": "Haarlem-Schipholweg",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 52.334003,
+    "Latitude": 4.774006,
+    "Number": "NL49561",
+    "EnglishDescription": "Badhoevedorp-Sloterweg",
+    "DutchDescription": "Badhoevedorp-Sloterweg",
+    "Province": null,
+    "Location": "Badhoevedorp-Sloterweg",
+    "Organisation": "GGD Amsterdam"
+  },
+  {
+    "Longitude": 52.32745,
+    "Latitude": 4.715071,
+    "Number": "NL49564",
+    "EnglishDescription": "Hoofddorp-Hoofdweg",
+    "DutchDescription": "Hoofddorp-Hoofdweg",
+    "Province": null,
+    "Location": "Hoofddorp-Hoofdweg",
+    "Organisation": "GGD Amsterdam"
+  },
+  {
+    "Longitude": 52.28013,
+    "Latitude": 4.77082,
+    "Number": "NL49565",
+    "EnglishDescription": "Oude Meer-Aalsmeerderdijk",
+    "DutchDescription": "Oude Meer-Aalsmeerderdijk",
+    "Province": null,
+    "Location": "Oude Meer-Aalsmeerderdijk",
+    "Organisation": "GGD Amsterdam"
+  },
+  {
+    "Longitude": 52.20153,
+    "Latitude": 4.987444,
+    "Number": "NL10641",
+    "EnglishDescription": "Breukelen-A2",
+    "DutchDescription": "Breukelen-A2",
+    "Province": null,
+    "Location": "Breukelen-A2",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 51.93207,
+    "Latitude": 4.22799,
+    "Number": "NL01495",
+    "EnglishDescription": "Maassluis-Kwartellaan",
+    "DutchDescription": "Maassluis-Kwartellaan",
+    "Province": null,
+    "Location": "Maassluis-Kwartellaan",
+    "Organisation": "DCMR (Rijnmond)"
+  },
+  {
+    "Longitude": 52.38833,
+    "Latitude": 6.402919,
+    "Number": "NL10807",
+    "EnglishDescription": "Hellendoorn-Luttenbergerweg",
+    "DutchDescription": "Hellendoorn-Luttenbergerweg",
+    "Province": null,
+    "Location": "Hellendoorn-Luttenbergerweg",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 52.234505,
+    "Latitude": 6.919494,
+    "Number": "NL10821",
+    "EnglishDescription": "Enschede-Winkelshorst",
+    "DutchDescription": "Enschede-Winkelshorst",
+    "Province": null,
+    "Location": "Enschede-Winkelshorst",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 51.974487,
+    "Latitude": 4.923301,
+    "Number": "NL10644",
+    "EnglishDescription": "Cabauw-Wielsekade",
+    "DutchDescription": "Cabauw-Wielsekade",
+    "Province": null,
+    "Location": "Cabauw-Wielsekade",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 52.13795,
+    "Latitude": 4.83819,
+    "Number": "NL10633",
+    "EnglishDescription": "Zegveld-Oude Meije",
+    "DutchDescription": "Zegveld-Oude Meije",
+    "Province": null,
+    "Location": "Zegveld-Oude Meije",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 52.10503,
+    "Latitude": 5.124464,
+    "Number": "NL10636",
+    "EnglishDescription": "Utrecht-Kardinaal de Jongweg",
+    "DutchDescription": "Utrecht-Kardinaal de Jongweg",
+    "Province": null,
+    "Location": "Utrecht-Kardinaal de Jongweg",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 52.06775,
+    "Latitude": 5.120507,
+    "Number": "NL10639",
+    "EnglishDescription": "Utrecht-Constant Erzeijstraat",
+    "DutchDescription": "Utrecht-Constant Erzeijstraat",
+    "Province": null,
+    "Location": "Utrecht-Constant Erzeijstraat",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 52.101307,
+    "Latitude": 5.128183,
+    "Number": "NL10643",
+    "EnglishDescription": "Utrecht-Griftpark",
+    "DutchDescription": "Utrecht-Griftpark",
+    "Province": null,
+    "Location": "Utrecht-Griftpark",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 51.2945,
+    "Latitude": 3.749484,
+    "Number": "NL10318",
+    "EnglishDescription": "Philippine-Stelleweg",
+    "DutchDescription": "Philippine-Stelleweg",
+    "Province": null,
+    "Location": "Philippine-Stelleweg",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 51.86942,
+    "Latitude": 4.58007,
+    "Number": "NL01489",
+    "EnglishDescription": "Ridderkerk-A16",
+    "DutchDescription": "Ridderkerk-A16",
+    "Province": null,
+    "Location": "Ridderkerk-A16",
+    "Organisation": "DCMR (Rijnmond)"
+  },
+  {
+    "Longitude": 51.86173,
+    "Latitude": 4.563812,
+    "Number": "NL01912",
+    "EnglishDescription": "Ridderkerk-Voorweg",
+    "DutchDescription": "Ridderkerk-Voorweg",
+    "Province": null,
+    "Location": "Ridderkerk-Voorweg",
+    "Organisation": "DCMR (Rijnmond)"
+  },
+  {
+    "Longitude": 51.8579,
+    "Latitude": 4.66012,
+    "Number": "NL01908",
+    "EnglishDescription": "Alblasserdam-Ruigenhil",
+    "DutchDescription": "Alblasserdam-Ruigenhil",
+    "Province": null,
+    "Location": "Alblasserdam-Ruigenhil",
+    "Organisation": "DCMR (Rijnmond)"
+  },
+  {
+    "Longitude": 51.914883,
+    "Latitude": 4.329431,
+    "Number": "NL10449",
+    "EnglishDescription": "Vlaardingen-Riouwlaan",
+    "DutchDescription": "Vlaardingen-Riouwlaan",
+    "Province": null,
+    "Location": "Vlaardingen-Riouwlaan",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 51.78658,
+    "Latitude": 4.450529,
+    "Number": "NL10437",
+    "EnglishDescription": "Westmaas-Groeneweg",
+    "DutchDescription": "Westmaas-Groeneweg",
+    "Province": null,
+    "Location": "Westmaas-Groeneweg",
+    "Organisation": "RIVM"
+  },
+  {
+    "Longitude": 52.296555,
+    "Latitude": 4.510817,
+    "Number": "NL10444",
+    "EnglishDescription": "De Zilk-Vogelaarsdreef",
+    "DutchDescription": "De Zilk-Vogelaarsdreef",
+    "Province": null,
+    "Location": "De Zilk-Vogelaarsdreef",
+    "Organisation": "RIVM"
+  }
+]

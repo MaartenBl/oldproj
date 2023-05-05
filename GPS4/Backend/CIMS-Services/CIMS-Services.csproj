@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>CIMS_Services</RootNamespace>
+        <ProjectGuid>16f5954d-dc23-41e2-8780-3778248f2d90</ProjectGuid>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CIMS-Data\CIMS-Data.csproj" />
+      <ProjectReference Include="..\CIMS-Models\CIMS-Models.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Options" Version="3.1.3" />
+      <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    </ItemGroup>
+
+</Project>

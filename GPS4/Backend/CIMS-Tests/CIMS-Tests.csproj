@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>CIMS_Tests</RootNamespace>
+        <ProjectGuid>f93e63f3-6204-4335-acbd-46b9d8d46447</ProjectGuid>
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="coverlet.msbuild" Version="2.8.1" />
+        <PackageReference Include="Moq" Version="4.13.1" />
+        <PackageReference Include="nunit" Version="3.12.0" />
+        <PackageReference Include="NUnit3TestAdapter" Version="3.15.1" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.4.0" />
+        <PackageReference Include="ReportGenerator" Version="4.5.8" />
+        <CoverageFiles Include="coverage.opencover.xml" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\CIMS-Data\CIMS-Data.csproj" />
+        <ProjectReference Include="..\CIMS-Models\CIMS-Models.csproj" />
+        <ProjectReference Include="..\CIMS-Services\CIMS-Services.csproj" />
+        <ProjectReference Include="..\CIMS-Models\CIMS-Models.csproj" />
+    </ItemGroup>
+    
+    <Target Name="Coverage">
+        <ReportGenerator ReportFiles="@(CoverageFiles)" TargetDirectory="report" ReportTypes="Html" HistoryDirectory="history" VerbosityLevel="Verbose" />
+    </Target>
+</Project>
